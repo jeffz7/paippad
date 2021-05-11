@@ -4,7 +4,7 @@
 
 Using npm:
 ```shell
-$ npm i lodash
+$ npm i paippad
 ```
 Note: add `--save` if you are using npm < 5.0.0
 
