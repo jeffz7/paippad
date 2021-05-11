@@ -1,0 +1,25 @@
+{
+  "name": "paippad",
+  "version": "1.0.2",
+  "description": "find an item in the array based on multiple predicates.",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc"
+  },
+  "keywords": [
+    "paippad",
+    "array",
+    "find",
+    "findOneByAny"
+  ],
+  "author": "jobinmathew",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
