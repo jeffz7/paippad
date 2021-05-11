@@ -18,6 +18,8 @@
     "findOneByAny"
   ],
   "author": "jobinmathew",
+  "repository": "https://github.com/jeffz7/paippad",
+  "homepage": "https://github.com/jeffz7/paippad#readme",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.2.4"
