@@ -24,7 +24,7 @@
  * const predicates = [
  *  (i) => i.age === 28,
  *  (i) => i.age === 35,
- *  (i) => i.name === sijo,
+ *  (i) => i.name === 'sijo',
  * ]
  *
  * findOneByAny(users, predicates)
@@ -49,7 +49,7 @@ export const findOneByAny = (array: any[], predicates: ((i: any) => any)[]) => {
         }
         ++index
     }
-    for (let k = 0; k < predicatesLength; k++) {
+    for (let k = 1; k < predicatesLength; k++) {
         if (foundItems[k]) {
             return foundItems[k]
         }

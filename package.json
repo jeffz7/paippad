@@ -1,6 +1,6 @@
 {
   "name": "paippad",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "find an item in the array based on multiple predicates.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
